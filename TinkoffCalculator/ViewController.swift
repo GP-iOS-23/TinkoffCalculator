@@ -15,9 +15,12 @@ class ViewController: UIViewController {
         print(buttonText)
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print("Та-дам!")
     }
 
 
