@@ -117,6 +117,17 @@ class ViewController: UIViewController {
         calculationHistory.removeAll()
     }
     
+    @IBAction func showCalculationsList(_ sender: Any) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let calculationsListVC = sb.instantiateViewController(identifier: "CalculationsListViewController")
+        if let vc = calculationsListVC as? CalculationsListViewController{
+            vc.result = label.text
+        }
+        
+        navigationController?.pushViewController(calculationsListVC, animated: true)
+    }
+    
+    
     var calculationHistory: [CalculationHistoryItem] = []
     
     lazy var numberFormatter: NumberFormatter = {
@@ -135,6 +146,11 @@ class ViewController: UIViewController {
         
         resetLabelText()
     }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        navigationController?.setNavigationBarHidden(true, animated: false)
+//    }
     
     func calculate() throws -> Double{
         guard case .number(let firstNumber) = calculationHistory[0] else { return 0 }

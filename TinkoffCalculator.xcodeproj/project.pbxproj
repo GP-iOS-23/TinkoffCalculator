@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7022E0EE2B72E9760034FA71 /* CalculationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7022E0ED2B72E9750034FA71 /* CalculationsListViewController.swift */; };
 		702D02AA2B69B03800536BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D02A92B69B03800536BFD /* AppDelegate.swift */; };
 		702D02AC2B69B03800536BFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D02AB2B69B03800536BFD /* SceneDelegate.swift */; };
 		702D02AE2B69B03800536BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D02AD2B69B03800536BFD /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7022E0ED2B72E9750034FA71 /* CalculationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsListViewController.swift; sourceTree = "<group>"; };
 		702D02A62B69B03800536BFD /* TinkoffCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702D02A92B69B03800536BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702D02AB2B69B03800536BFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		702D02A82B69B03800536BFD /* TinkoffCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				7022E0ED2B72E9750034FA71 /* CalculationsListViewController.swift */,
 				702D02A92B69B03800536BFD /* AppDelegate.swift */,
 				702D02AB2B69B03800536BFD /* SceneDelegate.swift */,
 				702D02AD2B69B03800536BFD /* ViewController.swift */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7022E0EE2B72E9760034FA71 /* CalculationsListViewController.swift in Sources */,
 				702D02AE2B69B03800536BFD /* ViewController.swift in Sources */,
 				702D02AA2B69B03800536BFD /* AppDelegate.swift in Sources */,
 				702D02AC2B69B03800536BFD /* SceneDelegate.swift in Sources */,
