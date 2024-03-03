@@ -314,53 +314,34 @@
             <point key="canvasLocation" x="187" y="-44"/>
         </scene>
         <!--Прошлые вычисления-->
-        <scene sceneID="MTJ-9p-N7O">
+        <scene sceneID="0zQ-l7-zhk">
             <objects>
-                <viewController storyboardIdentifier="CalculationsListViewController" title="Прошлые вычисления" id="4vs-hP-BHU" customClass="CalculationsListViewController" customModule="TinkoffCalculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ce1-3R-mZI">
+                <viewController storyboardIdentifier="HistoryViewController" title="Прошлые вычисления" id="wJ0-WU-JND" customClass="HistoryViewController" customModule="TinkoffCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SrK-4N-7Yg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3A-fa-La8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drb-dp-fnq">
                                 <rect key="frame" x="196.66666666666666" y="426" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlY-NN-uNF">
-                                <rect key="frame" x="151.33333333333334" y="454.33333333333331" width="90.666666666666657" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Закрыть"/>
-                                <connections>
-                                    <action selector="dismissVC:" destination="4vs-hP-BHU" eventType="touchUpInside" id="d9h-Oh-O1a"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Результат:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m88-3N-GSh">
-                                <rect key="frame" x="154.66666666666666" y="380" width="83.666666666666657" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Yqr-vx-3NZ"/>
+                        <viewLayoutGuide key="safeArea" id="JRn-IB-dhL"/>
                         <color key="backgroundColor" red="0.19607841970000001" green="0.19607841970000001" blue="0.20784312490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="m3A-fa-La8" firstAttribute="centerX" secondItem="Ce1-3R-mZI" secondAttribute="centerX" id="e7P-lD-pU2"/>
-                            <constraint firstItem="m3A-fa-La8" firstAttribute="centerY" secondItem="Ce1-3R-mZI" secondAttribute="centerY" id="fPb-w5-j8e"/>
-                            <constraint firstItem="BlY-NN-uNF" firstAttribute="centerX" secondItem="Ce1-3R-mZI" secondAttribute="centerX" id="jKC-Sp-b9u"/>
-                            <constraint firstItem="m3A-fa-La8" firstAttribute="top" secondItem="m88-3N-GSh" secondAttribute="bottom" constant="25" id="pNI-2J-3dx"/>
-                            <constraint firstItem="BlY-NN-uNF" firstAttribute="top" secondItem="m3A-fa-La8" secondAttribute="bottom" constant="28.333333333333314" id="wLg-dR-yWB"/>
-                            <constraint firstItem="m88-3N-GSh" firstAttribute="centerX" secondItem="Ce1-3R-mZI" secondAttribute="centerX" id="yXB-B8-h1L"/>
+                            <constraint firstItem="drb-dp-fnq" firstAttribute="centerY" secondItem="SrK-4N-7Yg" secondAttribute="centerY" id="1cJ-Nj-FN0"/>
+                            <constraint firstItem="drb-dp-fnq" firstAttribute="centerX" secondItem="SrK-4N-7Yg" secondAttribute="centerX" id="ijZ-Xl-eFh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Прошлые вычисления" id="EWF-lG-Ka4"/>
                     <connections>
-                        <outlet property="calculationLabel" destination="m3A-fa-La8" id="sei-cB-Z3n"/>
+                        <outlet property="resultLabel" destination="drb-dp-fnq" id="yu7-Ul-DXa"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="80s-F7-frq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hhx-QZ-fX9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.28244274809151" y="-44.366197183098592"/>
+            <point key="canvasLocation" x="1092" y="-44"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nua-lk-O54">

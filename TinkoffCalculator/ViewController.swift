@@ -119,8 +119,8 @@ class ViewController: UIViewController {
     
     @IBAction func showCalculationsList(_ sender: Any) {
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let calculationsListVC = sb.instantiateViewController(identifier: "CalculationsListViewController")
-        if let vc = calculationsListVC as? CalculationsListViewController{
+        let calculationsListVC = sb.instantiateViewController(identifier: "HistoryViewController")
+        if let vc = calculationsListVC as? HistoryViewController{
             vc.result = label.text
         }
         
