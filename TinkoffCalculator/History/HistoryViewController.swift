@@ -64,7 +64,7 @@ extension HistoryViewController: UITableViewDelegate{
             .FormatStyle()
             .day(.twoDigits)
             .month(.twoDigits)
-            .year(.twoDigits))
+            .year(.defaultDigits))
         
         headerView.addSubview(dateLabel)
         return headerView
