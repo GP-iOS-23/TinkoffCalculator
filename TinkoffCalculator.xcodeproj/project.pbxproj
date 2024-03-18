@@ -17,6 +17,8 @@
 		702D02CB2B69B03C00536BFD /* TinkoffCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D02CA2B69B03C00536BFD /* TinkoffCalculatorUITests.swift */; };
 		702D02CD2B69B03C00536BFD /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D02CC2B69B03C00536BFD /* TinkoffCalculatorUITestsLaunchTests.swift */; };
 		703751B62B94B2520069EBA7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703751B52B94B2520069EBA7 /* HistoryViewController.swift */; };
+		70F026D82BA86CCD00B1EA88 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F026D72BA86CCD00B1EA88 /* HistoryTableViewCell.swift */; };
+		70F026DA2BA86DC800B1EA88 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F026D92BA86DC700B1EA88 /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		702D02CA2B69B03C00536BFD /* TinkoffCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITests.swift; sourceTree = "<group>"; };
 		702D02CC2B69B03C00536BFD /* TinkoffCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		703751B52B94B2520069EBA7 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		70F026D72BA86CCD00B1EA88 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		70F026D92BA86DC700B1EA88 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,7 @@
 		702D02A82B69B03800536BFD /* TinkoffCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				703751B52B94B2520069EBA7 /* HistoryViewController.swift */,
+				706471482BA86C5900BE9819 /* History */,
 				702D02A92B69B03800536BFD /* AppDelegate.swift */,
 				702D02AB2B69B03800536BFD /* SceneDelegate.swift */,
 				702D02AD2B69B03800536BFD /* ViewController.swift */,
@@ -128,6 +132,16 @@
 				702D02CC2B69B03C00536BFD /* TinkoffCalculatorUITestsLaunchTests.swift */,
 			);
 			path = TinkoffCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		706471482BA86C5900BE9819 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				703751B52B94B2520069EBA7 /* HistoryViewController.swift */,
+				70F026D72BA86CCD00B1EA88 /* HistoryTableViewCell.swift */,
+				70F026D92BA86DC700B1EA88 /* HistoryTableViewCell.xib */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +250,7 @@
 			files = (
 				702D02B62B69B03C00536BFD /* LaunchScreen.storyboard in Resources */,
 				702D02B32B69B03C00536BFD /* Assets.xcassets in Resources */,
+				70F026DA2BA86DC800B1EA88 /* HistoryTableViewCell.xib in Resources */,
 				702D02B12B69B03800536BFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 				702D02AA2B69B03800536BFD /* AppDelegate.swift in Sources */,
 				703751B62B94B2520069EBA7 /* HistoryViewController.swift in Sources */,
 				702D02AC2B69B03800536BFD /* SceneDelegate.swift in Sources */,
+				70F026D82BA86CCD00B1EA88 /* HistoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
