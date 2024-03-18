@@ -60,11 +60,9 @@ extension HistoryViewController: UITableViewDelegate{
                                       height: headerView.frame.height-10)
         
         let date = Date()
-        dateLabel.text = date.formatted(Date
-            .FormatStyle()
-            .day(.twoDigits)
-            .month(.twoDigits)
-            .year(.defaultDigits))
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.yyyy"
+        dateLabel.text = dateFormatter.string(from: date)
         
         headerView.addSubview(dateLabel)
         return headerView
